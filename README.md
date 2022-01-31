@@ -1,5 +1,14 @@
 # EvaluacionPractica
 
+## Ejercicio 1
+
+Programas utilizados en la realización de esta practica.
+|Visual Estudio Code|Git|GitBash|Postman|
+|---------|-------------|-------|-------|
+|![VSC](Img/VSC.png)|![GIT](Img/Git.png)|![GITBASH](Img/GitBASH.png)|![POSTMAN](Img/Postman.png)|
+
+---
+
 ## Ejercicio 2
 
 1. **¿Qué es un servidor HTTP?**
@@ -25,6 +34,7 @@
 8. **Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
    *XML* es uno de los formatos más utilizados para el intercambio de información entre sistemas. El formato de este estándar está basado en texto para representar información estructurada: datos, documentos, configuración, etc.. Una etiqueta siempre está entre los valores < y > y para cerrar esa etiqueta utilizamos </ >. También podemos encontrar atributos, como es el caso de nuestra etiqueta raíz pieza que tiene el atributo tipo. Los atributos son una manera de añadir propiedades a los elementos y el contenido debe ir entrecomillado. Todas las etiquetas pueden tener uno, ninguno o varios atributos.
    Un ejemplo de su estructura de datos seria:
+
    ```
     <pieza tipo="A">
         <nombre>Tornillo</nombre>
@@ -37,7 +47,9 @@
         <vacio></vacio>
     </pieza>
    ```
+
    *JSON* es más legible por el ser humano e igual de eficaz que XML para la comunicación entre maquinas, está basado en un subconjunto del lenguaje de programación JavaScript y está construido por una colección de pares de nombre y valor o por una lista ordenada de valores. Un ejemplo de su estructura de datos seria:
+
    ```
     {
         “pieza”: {
@@ -52,6 +64,7 @@
         }
     }
    ```
+
 9. **Explicar brevemente el estándar SOAP**
     *SOAP* *(Simple Object Access Protocol)* nos permiete la comunicación entre un cliente y los servicios de un servidor. Cuando el cliente envia la solicitud SOAP determina la forma que debe de adoptar dicha solicitud. Dentro de esta definición de la solicitud tambien se pueden incluir datos especificos de la aplicación, con esto los servicios web pueden desplegar aplicaciones diferentes y para que puedan ocuparse como servicios web sin necesidad de tener la misma sintaxis, SOAP establece unas reglas basicas. SOAP se basa en el metalenguaje XML y en la mayoría de los casos, se integra también en HTTP. El transporte se realiza a través del protocolo y se integra en su estructura.
 10. **Explicar brevemente el estándar REST Full**
@@ -59,4 +72,7 @@
 11. **¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
     Los *headers* en un request son pares como "Nombre:Valor" los cuales contienen información diversa sobre la solicitud HTTP y el navegador, como la version del navegador y del sistema operativos, cookies, URL referidas,etc.. aunque la mayoria de los headers son opcionales.
     El *Content-Type* se utiliza para indicar el tipo de medio original del recurso, en las request el cliente dice le dice al servidor que tipos de datos se envía realmente,
-    
+
+---
+
+## Ejercicio 3
