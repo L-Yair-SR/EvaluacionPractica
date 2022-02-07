@@ -1,5 +1,9 @@
 # EvaluaciónPráctica
 
+***Repositorio para la resolución de la practica enviada por ProContacto.***
+
+---
+
 ## Ejercicio 1
 
 Programas y plataformas utilizadas en la realización de esta práctica.
@@ -105,7 +109,7 @@ Programas y plataformas utilizadas en la realización de esta práctica.
 ```JSON
 {
  "name":"Tu nombre",
- "email":tunombre.tuapellido@procontacto.com.mx
+ "email":"tunombre.tuapellido@procontacto.com.mx"
 }
 ```
 
