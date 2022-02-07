@@ -2,10 +2,10 @@
 
 ## Ejercicio 1
 
-Programas utilizados en la realización de esta práctica.
-|[Visual Estudio Code](https://code.visualstudio.com)|[Git](https://git-scm.com)|[GitBash](https://gitforwindows.org)|[Postman](https://www.postman.com)|Trailhead|
+Programas y plataformas utilizadas en la realización de esta práctica.
+|[Visual Estudio Code](https://code.visualstudio.com)|[Git](https://git-scm.com)|[GitBash](https://gitforwindows.org)|[Postman](https://www.postman.com)|[Trailhead](https://trailhead.salesforce.com/today)|
 |---------|-------------|-------|-------|------|
-|![VSC](Img/VSC.png)|![GIT](Img/Git.png)|![GITBASH](Img/GitBASH.png)|![POSTMAN](Img/Postman.png)||
+|![VSC](Img/VSC.png)|![GIT](Img/Git.png)|![GITBASH](Img/GitBASH.png)|![POSTMAN](Img/Postman.png)|![TRAILHEAD](Img/TRAILHEAD.png)|
 
 ---
 
@@ -139,7 +139,7 @@ Modulos realizados:
 |![Icono 5](Img/Icon5.png)|**Desencadenadores de Apex**|
 |![Icono 6](Img/Icon6.png)|**Apex Integration Services**|
 
-Pequeñas observaciones:
+*Pequeñas observaciones:*
 
 * Para el modulo de Modelado de Datos se ocupo el playground con nombre **Curious Bear Playground**
   
@@ -153,17 +153,17 @@ Pequeñas observaciones:
 
 1. **Lead**
 
->Los *Leads* son personas o compañias que identificamos como clientes potenciales. Los datos que almacenan son:
+>Los *Leads* son personas o compañías que identificamos como clientes potenciales. Los datos que almacenan son:
 
 * Nombre
 * Apellido
-* Compañia
+* Compañía
 * Estatus de Lead
 * Creado por
 
 2. **Account**
 
->*Account* es el registro de las cuentas individuales de entidades relacionadas con la empresa, como lo son clientes,socios, etc. Los datos que almacena son:
+>*Account* es el registro de las cuentas individuales de entidades relacionadas con la empresa, como lo son clientes, socios, etc. Los datos que almacena son:
 
 * Nombre de cuenta
 * Propietario de cuenta
@@ -172,7 +172,7 @@ Pequeñas observaciones:
 
 3. **Contact**
 
->*Contact* es un contacto, osea que es una entidad que tiene una cuenta, como una personas o una empresa. Los datos que almacena son:
+>*Contact* es un contacto, lo cual es una entidad que tiene una cuenta, como una persona o una empresa. Los datos que almacena son:
 
 * Nombre de la cuenta
 * Creado por
@@ -180,7 +180,7 @@ Pequeñas observaciones:
 
 4. **Opportunity**
 
->*Opportunity* es una situacion en la que se puede poner una venta o trato. Los datos que almacena son:
+>*Opportunity* es una situación en la que se puede poner una venta o trato. Los datos que almacena son:
 
 * Fecha de cierre
 * Creado por
@@ -190,10 +190,10 @@ Pequeñas observaciones:
 
 >*Product* es todo aquel objeto que se ofrece de la empresa a los clientes. Los datos que almacena son:
 
-* Nombre del prodcuto
+* Nombre del producto
 * Creado por
-* Codigo del producto
-* Si esta disponible o activo
+* Código del producto
+* Si está disponible o activo
 
 6. **PriceBook**
 
@@ -201,7 +201,7 @@ Pequeñas observaciones:
 
 * Nombre del price book
 * Creado por
-* Ultima modificacion por
+* Ultima modificación por
 
 7. **Quote**
 
@@ -219,11 +219,11 @@ Pequeñas observaciones:
 * Nombre
 * Propietario
 * Creado por
-* Ultima modificacion por
+* Ultima modificación por
 
 9. **Case**
 
->*Case* es un evento que detona un problema o un incoveniente al cual hay que darle soporte. Los datos que almacena son:
+>*Case* es un evento que detona un problema o un inconveniente al cual hay que darle soporte. Los datos que almacena son:
 
 * Numero de caso
 * Estado
@@ -231,12 +231,227 @@ Pequeñas observaciones:
 
 10. **Article**
 
-*Article* es donde guarda la informacion referente a diferentes objetos ocupados.
+*Article* es donde guarda la información referente a diferentes objetos ocupados.
 
-**Diagrama**
+**Diagrama de relaciones**
+
 ![Diagrama](Img/DiagramaSale.png)
+
 ---
 
 ## Ejercicio 6
 
-|
+***Soluciones de Salesforce***
+
+**A. ¿Qué es Salesforce?**
+
+>Es una plataforma desarrollada en la nube para brindar servicios CRM, marketing, análisis de datos y desarrollos de aplicaciones.
+
+**B. ¿Qué es Sales Cloud?**
+
+>Es un producto que ofrece Salesforce para administrar los leads, monitorear los resultados y automatizar las ventas con ayuda de tecnologías como IA y big data.
+
+**C. ¿Qué es Service Cloud?**
+
+>Es un producto que ofrece Salesforce para brindar soluciones al cliente. Él nos permite conectarnos con los clientes para ayudarlos a solucionar los problemas de manera eficaz.
+
+**D. ¿Qué es Health Cloud?**
+
+>Es un producto que ofrece Salesforce el cual se enfoca en el sector salud para el monitoreo de pacientes y así poder ofrecer soluciones eficientes ante una emergencia.
+
+**E. ¿Qué es Marketing Cloud?**
+
+>Es un producto que ofrece Salesforce para la gestión de campañas de publicidad a través de distintos medios como lo son las redes sociales, e-mails y mensajes de texto.
+
+---
+
+***Funcionalidades de Salesforce***
+
+**A. ¿Qué es un RecordType?**
+
+>Nos permite definir los valores que se pueden seleccionar cuando se crea un nuevo registro.
+
+**B. ¿Qué es un ReportType?**
+
+>Son los datos asociados a un reporte o informe personalizado.
+
+**C. ¿Qué es un Page Layout?**
+
+>Es lo que nos permite cambiar el diseño de una página, así como sus componentes.
+
+**D. ¿Qué es un Compact Layout?**
+
+>Nos sirve para mostrar solo los componentes importantes en un formato más pequeño, enfocado a aplicaciones móviles.
+
+**E. ¿Qué es un Perfil?**
+
+>Nos permite define las acciones que puede realizar un usuario en la aplicación, así como qué datos u objetos puede editar o eliminar.
+
+**F. ¿Qué es un Rol?**
+
+>Nos permite controlar el nivel de visibilidad que tiene un usuario sobre sus datos dentro de la plataforma.
+
+**G. ¿Qué es un Validation Rule?**
+
+>Es una acción la cual verifica que se cumplan ciertas reglas antes de realizar cambios en un registro.
+
+**H. ¿Qué diferencia hay entre una relación Master Detail y Lookup?**
+
+>En la relación Lookup, una vez que ese valor está asignado puede ser cambiado, de igual manera si el objeto padre es eliminando, el hijo puede seguir en su función. En cambio, en la relación Master Detail, una vez asignado el valor no puede ser cambiado y al momento de eliminar el objeto padre el objeto hijo también se elimina, pues ya sería inservible.
+
+**I.¿Qué es un Sandbox?**
+
+>Es una copia de una plataforma utilizada principalmente para realizar cambios y pruebas sin poner en riesgo la integridad de los datos.
+
+**J. ¿Qué es un ChangeSet?**
+
+>Nos permite implementar cambios de una organización Salesforce a otra.
+
+**K. ¿Para qué sirve el import Wizard de Salesforce?**
+
+>Es una interfaz que nos permite importar datos y registros de datos de forma rápida y sencilla.
+
+**L. ¿Para qué sirve la funcionalidad Web to Lead?**
+
+>Sirve para la creación de formularios que pueden ser insertados en cualquier sitio web y así obtener información sobre nuevos leads.
+
+**M. ¿Para qué sirve la funcionalidad Web to Case?**
+
+>Es similar a la función *Web to Lead* solo que en este caso nos permite obtener reportes y/o problemas de los clientes.
+
+**N. ¿Para qué sirve la funcionalidad Omnichannel?**
+
+>Permite la asignación de las solicitudes de los usuarios a los empelados más calificados y disponibles en ese momento.
+
+**O. ¿Para qué sirve la funcionalidad Chatter?**
+
+>Se podría ver como una red social interna de Salesforce la cual conecta a todos los usuarios y permite el trabajo colaborativo desde cualquier lugar.
+
+---
+
+***Conceptos generales***
+
+**A. ¿Qué significa SaaS?**
+
+>*Saas(Software as a Service)* es un modelo de entrega de software basado en la nube en el que el proveedor de la nube desarrolla y mantiene el software de las aplicaciones en la nube, proporciona actualizaciones automáticas del mismo y lo pone a disposición de sus clientes a través de Internet. 
+
+**B. ¿Salesforce es Saas?**
+
+>Efectivamente, Salesforces es Saas.
+
+**C. ¿Qué significa que una solución sea Cloud?**
+
+>Que cualquier sistema o información desarrollado es accesible a través de internet a cualquier hora y momento, eliminando problemas de movilidad y almacenamiento físicos.
+
+**D. ¿Qué significa que una solución sea On-Premise?**
+
+>Que el sistema o la información es almacenada en servidores locales y tanto el control como la seguridad de la misma queda a cargo de la empresa.
+
+**E. ¿Qué es un pipeline de ventas?**
+
+>Son una serie de acciones que se emplean para convertir a un lead en un cliente.
+
+**F. ¿Qué es un funnel de ventas?**
+
+>Es un sistema que muestra el porcentaje de leads que se convirtieron en clientes y la efectividad de cada una de las acciones realizadas en el pipeline. Este proceso sirve para generar confianza con los clientes potenciales.
+
+**G. ¿Qué significa Customer Experience?**
+
+>Es la imagen que se forma por la experiencia de las interacciones que los clientes viven dentro de la empresa. Estas pueden ser observaciones tanto positivas como negativas
+
+**H. ¿Qué significa omnicanalidad?**
+
+>Es la relación que se crea entre la empresa y los cliente en donde se pueda ir adaptando al medio que mejor le convenga.
+
+**I. ¿Qué significa que un negocio sea B2B?¿Qué significa que un negocio sea B2C?¿Qué es un KPI?**
+
+>Que un negocio sea ***B2B*** es porque sus productos o servicios son dirigidos a otras empresas. Que un negocio sea ***B2C*** es porque sus productos o servicios son dirigidos al público general. El ***KPI*** es un indicador para medir el desempeño de una empresa, un proyecto o algún empleado en relación con las metas u objetivos planteados.
+
+**J. ¿Qué es una API y en qué se diferencia de una Rest API?**
+
+>Una ***API*** es un conjunto de reglas que permite la comunicación entre dos aplicaciones de manera flexible, mientras que una ***Rest API*** es el conjunto de reglas que definen el diseño de la arquitectura de una API.
+
+**K. ¿Qué es un Proceso Batch?**
+
+>Es un proceso que se puede ejecutar sin la necesidad de tener un usuario que lo supervise.
+
+**L. ¿Qué es Kanban?**
+
+>Es una metodología que permite observar el progreso de tareas (por hacer, en proceso o finalizadas) donde su objetivo principal es el de gestionar de manera general como se van completando las tareas de forma visual (tarjetas).
+
+**M. ¿Qué es un ERP?**
+
+>Es un software que se ocupa para la optimización de la administración de diversas áreas o departamentos de una empresa como recursos humanos, finanzas, abastecimiento y gestión de riesgos. 
+
+**N. ¿Salesforce es un ERP?**
+
+>No, Salesforce no es un ERP ya que su enfoque esta más en las ventas y relaciones con sus clientes.
+
+---
+
+## Ejercicio 7
+
+**A. Consultar tu ID haciendo un GET con POSTMAN a este WS:**
+
+**https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json**
+
+![Ejercicio7-1](Img/EJ7-1.PNG)
+
+**B. Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255 caracteres.**
+
+![Ejercicio7-2](Img/EJ7-2.PNG)
+
+**C. Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado el punto B con TU id obtenido en el punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. Usar Playground 1.**
+
+```JAVA
+public class CambiosEmail {
+	@future (callout=true)
+    public static void ServicioEmail(String idproC) 
+    {
+        Contact contactoC;
+        Http http = new Http();
+        HttpRequest solicitud = new HttpRequest();
+        solicitud.setEndpoint('https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/' + idproC);
+        solicitud.setMethod('GET');
+        HttpResponse respuesta = http.send(solicitud);
+        if(respuesta.getStatusCode()==200)
+        {
+        	MAP<String, Object> resultados = (MAP<String, Object>) JSON.deserializeUntyped(respuesta.getBody());
+            String email = (String)resultados.get('email');
+            contactoC = [SELECT Id,Name FROM Contact WHERE idprocontacto__c = '-MuweRkbPFO87FJ2PYZ-' LIMIT 1];
+            contactoC.Email = email;
+            System.debug('Se recivio el siguiente email');
+            System.debug(email);
+         } else
+         {
+            System.debug(respuesta);
+         }
+         upsert contactoC;
+    }
+}
+```
+
+```JAVA
+public class TriggerContactHandler {
+    public static void HandlerTrigger(List<Contact> listaContactos)
+    {
+        for(Contact contacto : listaContactos)
+        {
+            if(contacto.idprocontacto__c=='-MuweRkbPFO87FJ2PYZ-')
+            {
+                CambiosEmail.ServicioEmail('-MuweRkbPFO87FJ2PYZ-');
+            }
+        }
+    }
+}
+```
+
+```APEX
+trigger TriggerContact on Contact (after insert, after update) {
+    TriggerContactHandler.HandlerTrigger(Trigger.new);
+}
+```
+
+![EjERCICIO 3](Img/EJ7-3.PNG)
+
+---
